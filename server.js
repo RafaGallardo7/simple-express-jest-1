@@ -10,6 +10,8 @@ app.use("/api", operationsRouter);
 app.use("/api", functionsRouter);
 app.use("/api", datasRouter);
 
+console.log('server ins running noew');
+
 const port = process.env.PORT || 3000
 app.listen(port, () => console.log(`listening on port ${port}`))
 
