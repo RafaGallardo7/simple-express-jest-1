@@ -12,4 +12,8 @@ describe('test oeprations functions ', () => {
   // test('subtraction 6 / 2 equial to 3', () => {
   //   expect(operationService.divide(6, 2)).toBe(3);
   // });
+
+  // test('subtraction 6 / 2 equial to 3', () => {
+  //   expect(operationService.divide(6, 2)).toBe(3);
+  // });
 }) 
