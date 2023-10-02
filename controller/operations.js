@@ -12,7 +12,7 @@ class Operation {
 
   async getSubstraction(req, res) {
     const substraction = await operationService.getSubstraction(7, 2);
-    res.send(`<h2> Substraction!!!: ${substraction} </h2>`)
+    res.send(`<h2> Substraction!!: ${substraction} </h2>`)
   }
   
 }
