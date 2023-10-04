@@ -6,9 +6,9 @@
 # EXPOSE 3000
 # CMD ["node", "app.js"]
 
-FROM node:12.2.0-alpine
+FROM node:latest
 WORKDIR app
 COPY . .
-RUN npm install
+RUN npm install && npm test
 EXPOSE 3000
 CMD ["node","server.js"]
