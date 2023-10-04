@@ -4,8 +4,8 @@ class Data {
     return num1 + num2;
   }
 
-  getSubstraction(num1, num2) {
-    return num1 - num2;
+  getMessage() {
+    return "Message1";
   }
   
 }
