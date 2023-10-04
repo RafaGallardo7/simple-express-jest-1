@@ -7,9 +7,8 @@ class Data {
     res.send(`<h2> Sum: ${sum} </h2>`)
   }
 
-  async getSubstraction(req, res) {
-    const substraction = await dataService.getSubstraction(7, 2);
-    res.send(`<h2> Substraction: ${substraction} </h2>`)
+  async showMessage(req, res) {    
+    res.send(`<h2> Message1</h2>`)
   }
   
 }
